@@ -1,0 +1,29 @@
+body{
+    font-family: audiowide;
+background-color: #3F4A4B;
+color: #8EECF5;
+}
+
+h1,h2,h3,h4,h5,h6 {
+font-family: geo;
+font-size: 40pt;
+}
+
+header, footer{
+    text-align: center;
+    border: 8px solid ;
+
+}
+
+#hero{
+    text-align: center;
+}
+
+#hero img{
+width: 330px;
+}
+
+
+#bio{
+    text-align: center;
+}
