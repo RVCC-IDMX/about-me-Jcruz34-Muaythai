@@ -6,7 +6,7 @@ color: #8EECF5;
 
 h1,h2,h3,h4,h5,h6 {
 font-family: geo;
-font-size: 40pt;
+font-size: 30pt;
 }
 
 header, footer{
@@ -35,6 +35,7 @@ color: aliceblue;
 /* Gallery */
 #Gallery{
     border: 3px solid aliceblue;
+    margin-bottom: 3rem;
     color: aliceblue;
 }
 
@@ -44,4 +45,34 @@ max-width: 100%;
 
 #Gallery figure{
 text-align: center;
+}
+/*book*/
+#Article{
+border: 3px solid aliceblue;
+    margin-bottom: 3rem;
+color: antiquewhite;
+font-family: audiowide;
+}
+#article div{
+    padding: 3rem;
+    max-width: 40rem;
+    margin: 0 auto;
+
+}
+
+#Article div p{
+padding: 0.3em 0;
+clear: both;
+}
+
+/* Dropcaps */
+
+#Article div p::first-letter{
+color: aliceblue;
+float: left;
+font-size: 3em;
+padding: .1em;
+line-height:.20;
+font-family: cursive;
+text-shadow:2px 2px 3px black ;
 }
