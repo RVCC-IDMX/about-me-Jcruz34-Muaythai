@@ -14,7 +14,7 @@ header, footer{
     border: 8px solid ;
 
 }
-
+/* hero section */
 #hero{
     text-align: center;
 }
@@ -23,12 +23,25 @@ header, footer{
 width: 330px;
 }
 
-
+/* bio section */
 #bio{
     text-align: center;
 }
-
+/* Hobbies */
 #hobbies{
 text-align: center;
 color: aliceblue;
+}
+/* Gallery */
+#Gallery{
+    border: 3px solid aliceblue;
+    color: aliceblue;
+}
+
+#Gallery img{
+max-width: 100%;
+}
+
+#Gallery figure{
+text-align: center;
 }
