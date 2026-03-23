@@ -31,6 +31,10 @@ width: 330px;
 #hobbies{
 text-align: center;
 color: aliceblue;
+display: flex;
+flex-direction: column;
+align-items: center;
+
 }
 /* Gallery */
 #Gallery{
@@ -52,12 +56,14 @@ border: 3px solid aliceblue;
     margin-bottom: 3rem;
 color: antiquewhite;
 font-family: audiowide;
+
 }
 #article div{
     padding: 3rem;
     max-width: 40rem;
     margin: 0 auto;
-
+max-width:100%;
+columns: 40rem;
 }
 
 #Article div p{
@@ -75,4 +81,18 @@ padding: .1em;
 line-height:.20;
 font-family: cursive;
 text-shadow:2px 2px 3px black ;
+}
+
+@media screen {min-height: 60em;
+figure{
+    display:grid;
+grid-template-columns: 2fr 1fr;
+}
+figcaption{
+    display:flex;
+justify-content: center;
+align-items: center;
+font-size: 2rem;
+margin-left: 1rem;
+}
 }
